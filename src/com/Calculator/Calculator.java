@@ -25,7 +25,7 @@ public class Calculator {
         }
     }
 
-    private double calculationStep() throws InputMismatchException {5
+    private double calculationStep() throws InputMismatchException {
 
         System.out.println("enter first number:");
         double firstNumber = Double.parseDouble(scanner.nextLine());
